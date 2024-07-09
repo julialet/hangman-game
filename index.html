@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/word-list.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="images/lost.png" alt="Derrota">
+            <h4>Fim de jogo!</h4>
+            <p>A resposta correta era: <b>[palavra]</b></p>
+            <button class="play-again">Jogar novamente</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="images/hangman-0.svg" alt="hangman-img">
+            <h1>Jogo da forca</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint">
+                Dica:
+                <b>[DICA]</b>
+            </h4>
+            <h4 class="guesses">
+                Letras incorretas:
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+</body>
+</html>
+
