@@ -2,6 +2,7 @@
     
   <h2>Descrição</h2>
     <p>Este é um projeto desenvolvido como parte de um trabalho acadêmico solicitado por um grupo de estudantes de Psicologia na FURB. O objetivo era criar um simples jogo da forca utilizando JavaScript.</p>
+    <p> <a href="https://julialet.github.io/hangman-game/">Clique aqui para jogar </a> </p>
 
   <h2>Funcionalidades</h2>
     <ul>
